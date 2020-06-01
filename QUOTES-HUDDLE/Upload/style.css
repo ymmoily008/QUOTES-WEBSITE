@@ -1,0 +1,236 @@
+﻿html ,body{
+	height: 100%;
+	width: 100%;
+	background-color: #ddcede;
+}
+
+:required { 
+     background: none; 
+     box-shadow:0 0 5px red;
+} 
+
+.navbar{
+	background-color:#1c354a;
+	padding: 1% 0%;
+	font-size: 1.2em;
+	font-style: bold;
+}
+
+textarea {
+    font-family: Verdana;
+    font-style: italic;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s;
+    border: 1px solid #ddd;
+
+-webkit-box-shadow: 5px 5px 5px 5px ##eee;
+-moz-box-shadow: 5px 5px 5px 5px ##eee;
+box-shadow: 5px 5px 5px 5px ##eee;
+
+}
+
+
+label{ 
+   font-family: Verdana;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 42px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+
+}
+
+.navbar-brand{
+	min-height: 55px;
+	padding: 0 15px 5px;
+
+}
+
+.navbar-default .navbar-nav li a{
+	color : #D5D5D5;
+}
+
+.navbar-default .navbar-nav li a:hover{
+	color : #FFFFFF;
+}
+
+.navbar-default .navbar-nav li a.active{
+	color : yellow;
+}
+
+/*  @import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans');
+*/
+.jumbotron{
+background-image: linear-gradient(to bottom, #829ed3, #abb0db, #ccc4e4, #e5daed, #f9f3f9);;
+}
+
+
+.bcolor{
+	
+background-image: linear-gradient(to right bottom, #918c92, #aaa5ab, #c4bec4, #ded8de, #f9f3f9);}
+
+.info{
+    background-color: rgb(56, 76, 112);
+}
+
+
+footer{
+	width: 100%;
+	background-color: #1c354a;
+	padding: 1% 1% 1% 1%;
+	color:white;
+}
+
+.styling{
+	background-color: #d3c3de;
+}
+
+.fa{
+	padding: 15px;
+	font-size: 25px;
+	color: white;
+}
+
+
+.fa:hover{
+	color: #D5D5D5;
+	text-decoration: none;
+}
+
+.icon{
+	max-width: 200px;
+}
+
+
+.modal-login {    
+    color: #636363;
+    width: 350px;
+  }
+  .modal-login .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  .modal-login .modal-header {
+    border-bottom: none;   
+        position: relative;
+        justify-content: center;
+  }
+  .modal-login h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -15px;
+  }
+  .modal-login .form-control:focus {
+    border-color: #70c5c0;
+  }
+  .modal-login .form-control, .modal-login .btn {
+    min-height: 40px;
+    border-radius: 3px; 
+  }
+  .modal-login .close {
+        position: absolute;
+    top: -5px;
+    right: -5px;
+  } 
+  .modal-login .modal-footer {
+    background: #ecf0f1;
+    border-color: #dee4e7;
+    text-align: center;
+        justify-content: center;
+    margin: 0 -20px -20px;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+  .modal-login .modal-footer a {
+    color: #999;
+  }   
+  .modal-login .avatar {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -70px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 9;
+    background: #60c7c1;
+    padding: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  .modal-login .avatar img {
+    width: 100%;
+  }
+  .modal-login.modal-dialog {
+    margin-top: 80px;
+  }
+    .modal-login .btn {
+        color: #fff;
+        border-radius: 4px;
+    background: #60c7c1;
+    text-decoration: none;
+    transition: all 0.4s;
+        line-height: normal;
+        border: none;
+    }
+  .modal-login .btn:hover, .modal-login .btn:focus {
+    background: #45aba6;
+    outline: none;
+  }
+
+  
+  .trigger-btn {
+    display: inline-block;
+    margin: 100px auto;
+  }
+
+  *:focus {outline:none}
+
+
+.myButton {
+   border-top: 1px solid #ffffff;
+   background: #d9d9d9;
+   background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#d9d9d9));
+   background: -webkit-linear-gradient(top, #fafafa, #d9d9d9);
+   background: -moz-linear-gradient(top, #fafafa, #d9d9d9);
+   background: -ms-linear-gradient(top, #fafafa, #d9d9d9);
+   background: -o-linear-gradient(top, #fafafa, #d9d9d9);
+   padding: 20px 100px;
+   -webkit-border-radius: 26px;
+   -moz-border-radius: 26px;
+   border-radius: 26px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #080408;
+   font-size: 24px;
+   font-family: Verdana;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.myButton:hover {
+   border-top-color: #e8e1e8;
+   background: #e8e1e8;
+   color: #030303;
+   outline: none;
+   }
+.myButton:active {
+   border-top-color: #bdbdbd;
+   background: #bdbdbd;
+   outline: none;
+}
+
+.errorText h1{
+    font-family:'Verdana';
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: rgb(253, 58, 58);
+}

@@ -1,0 +1,90 @@
+
+.cards{
+  width: 90%;
+  max-width: 960px;
+  margin: 60px auto;
+  padding: 2rem 5rem 10rem 5rem;
+  background-color: #84a5db;
+}
+
+.card{
+  width: 100%;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+  border-radius: 0 0 4px 4px;
+  float: left;
+  margin-bottom: 12px;
+  box-shadow: 10px 6px 14px 0px rgba(0,0,0,0.75);
+
+}
+
+.clearfix:after,
+.clearfix:before{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.top{
+  position: relative;
+  background: url(http://bdb.bertsozale.eus/images/grid-loading.gif) #d2d2d2;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 0;
+  border-radius: 4px 4px 0 0;
+
+}
+
+.top img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  display: block;
+}
+
+.bottom{
+  padding: 1rem;
+  background: #b7abba;  
+  border-radius: 0 0 4px 4px
+}
+
+.card-col-1,
+.card-col-2,
+.card-col-3{
+  width: calc(33.3333333% - 30px);
+  margin: 0 15px;
+  float: left;
+}
+
+.card h2{
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Alike+Angular');
+.card p{
+    font-family: "Alike Angular", serif;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: rgb(0, 0, 0);
+/*  background-color: rgb(254, 118, 211);*/  
+    text-shadow: rgba(0, 0, 0, 0.05) 2px 2px 2px;
+    padding: 20px;
+    background-image: url(../img/pink_texture.jpg);
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa');
+#heading{
+    font-family: "Aref Ruqaa", serif;
+    text-align: center;
+    font-size: 40px;
+    word-spacing: 1px;
+    color: rgb(243, 109, 140);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    padding-bottom: 2rem;
+}
